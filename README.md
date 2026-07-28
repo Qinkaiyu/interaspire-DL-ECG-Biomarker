@@ -1,4 +1,4 @@
-# INTERASPIRE DL-ECG Risk Stratification Code
+# INTERASPIRE DL-ECG Biomarker Risk Stratification Code
 
 This repository contains the Model 5 training pipeline, statistical analyses,
 and manuscript-generation code used for the INTERASPIRE DL-ECG risk
