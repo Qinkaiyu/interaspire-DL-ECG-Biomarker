@@ -1,0 +1,54 @@
+{
+  "id_column": "STUDYID",
+  "ecg_path_column": "source_path",
+  "ecg_mat_key": "feats",
+  "time_column": "time_Composite_4",
+  "event_column": "event_CVD_Composite_4",
+  "fold_column": "test_fold",
+  "tabular_features": [
+    "CVARAGE_ORD",
+    "RQSEX",
+    "CVARCOSMOKING",
+    "CVARBMI_ORD",
+    "CVARSYSTOL_ORD",
+    "CVARLABHBA1CPERCENT_ORD",
+    "CVAREGFR_ORD",
+    "CVARLABHDL_ORD",
+    "CVARLABLDLFRIEDEWALD_ORD",
+    "RQHISTOFPRECVD",
+    "RQHISTOFCORARTDIS",
+    "RQHISTOFHEARTFAIL",
+    "any_af",
+    "CVARMEDBPLOWERING",
+    "CVARMEDLIPIDLOWERING",
+    "CVARMEDGLUCOSELOWERING",
+    "RQANTICOAGULANTS",
+    "RQHISTOFCOPD",
+    "idx_STEMI",
+    "idx_NSTEMI",
+    "idx_UA",
+    "idx_ePCI",
+    "QT Prolongation",
+    "ST Depression",
+    "QT_INTERVAL_ORD"
+  ],
+  "auxiliary_continuous_columns": [
+    "PR Interval (ms)",
+    "QRS Duration (ms)",
+    "QT Interval (ms)"
+  ],
+  "auxiliary_binary_columns": [
+    "any_af",
+    "RBBB",
+    "LBBB",
+    "Q Wave",
+    "ST Elevation",
+    "ST Depression",
+    "T Wave Inversion",
+    "Ischaemic",
+    "QT Prolongation",
+    "LVH",
+    "1 AV Block"
+  ]
+}
+
